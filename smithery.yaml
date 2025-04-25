@@ -10,7 +10,7 @@ startCommand:
     (config) => ({
     "command": "node",
     "args": [
-      "src/index.js"
+      "build/index.js"
       ],
       "env": {
        
