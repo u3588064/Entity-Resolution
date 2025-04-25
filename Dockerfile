@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir --upgrade pip && \
 # RUN playwright install
 
 # Entrypoint to start the server
-CMD ["node", "src/index.js"]
+CMD ["node", "build/index.js"]
