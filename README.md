@@ -1,4 +1,5 @@
 # EntityIdentification
+[![smithery badge](https://smithery.ai/badge/@u3588064/entityrecognition)](https://smithery.ai/server/@u3588064/entityrecognition)
 Identify whether two sets of data are from the same entity. 识别两组数据是否来自同一主体
 
 This is a MCP (Model Context Protocol) server. 这是一个支持MCP协议的服务器。
@@ -17,6 +18,15 @@ This tool provides a comprehensive way to compare two sets of data, evaluating b
 
 ## Installation
 
+### Installing via Smithery
+
+To install Entity Identification for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@u3588064/entityrecognition):
+
+```bash
+npx -y @smithery/cli install @u3588064/entityrecognition --client claude
+```
+
+### Manual Installation
 To use this tool, ensure you have the necessary dependencies installed. You can install them using pip:
 
 ```bash
