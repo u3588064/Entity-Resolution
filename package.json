@@ -1,0 +1,20 @@
+{
+  "name": "entity-resolution-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@types/natural": "^5.1.5",
+    "natural": "^8.0.1",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/string-similarity": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
