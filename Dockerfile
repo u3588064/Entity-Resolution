@@ -14,7 +14,7 @@ RUN npm install
 # Copy the compiled application code
 COPY build ./build
 
-RUN npm run build
+
 
 # Define the command to run the application
 CMD ["node", "build/index.js"]
