@@ -9,7 +9,7 @@ COPY package*.json ./
 
 # Install production dependencies only
 # Use --ignore-scripts for potentially improved security
-RUN npm install --production --ignore-scripts
+RUN npm install
 
 # Copy the compiled application code
 COPY build ./build
