@@ -17,4 +17,4 @@ COPY build ./build
 
 
 # Define the command to run the application
-CMD ["node", "build/index.js"]
+CMD ["node", "dist/index.js"]
